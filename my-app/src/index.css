@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: cursive;
 }
 
 /* ##### general ##### */
@@ -9,13 +9,16 @@ body {
 	box-sizing: border-box;
 }
 main {
-	padding: 0 2rem;
+	padding: -1 rem;
+	background:rgb(249, 229, 229);
 }
 
+
 /* ##### Search ##### */
-header {
-	background: #3498db;
+.bg {
+	background: #d7d7d7;
 	margin-bottom: 2rem;
+	margin-left: 0rem;
 }
 
 input[type='text'] {
@@ -52,17 +55,19 @@ td:hover {
 	float: left;
 	width: 50%;
 	padding: 10px;
+	background-color: rgb(255, 204, 204);
+	
 }
 .column2 {
 	float: left;
 	width: 50%;
 	padding: 20px;
-	background-color: #ccdef9;
+	background-color: rgb(255, 204, 204);
 }
 
-/* ##### Rows ##### */
+/* ##### Rows #### */
 .row {
-	margin: 1rem;
+	margin: 0rem;
 }
 
 .row:after {
@@ -81,22 +86,31 @@ td:hover {
 /* ##### Footer ##### */
 .credit {
 	padding: 1rem 0;
-	color: #b3b3b3;
+	color: black;
 }
 .credit a {
-	color: #3498bb;
+	color: black;
 }
 button {
 	background: #d7d7d7;
 	color: #3b3b3b;
-	padding: 0.6rem 1rem;
-	font-size: 0.8rem;
-	border: solid 1px #c7c7c7;
+	padding: .4rem 1rem;
+	font-family:cursive;
+	font-size: 1rem;
+	border: solid 1px black;
 	margin: 1rem 0;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-	border-radius: 3px;
+	border-radius: 11px;
 	outline: none;
 }
 button:hover {
 	background: #ddd;
+}
+input[type=text]{
+background: white;
+border-radius: 11px;
+height:3rem;
+width:25rem;
+border: solid 1px black;
+font-family: cursive;
 }
